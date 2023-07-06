@@ -137,7 +137,7 @@ const HomeScreens = ({ navigation }) => {
   };
 
   return (
-    <SafeAreaView style={{ backgroundColor: COLORS.white, flex: 1 }}>
+    <SafeAreaView style={{ backgroundColor: COLORS.white, flex: 1}}>
       <View style={styles.header}>
         <Icon name="sort-variant" size={28} color={COLORS.primary} />
         <Icon name="cart-outline" size={28} color={COLORS.primary} />
